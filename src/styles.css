@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-content-picture-wrapper {
+  height: 30%;
+}
+
+.app-content-controls-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  width: 100%;
+}
+
+.picture g {
+  transition: transform 2s, opacity 2s;
+}
+
+.picture path {
+  transition: fill 2s;
+}
